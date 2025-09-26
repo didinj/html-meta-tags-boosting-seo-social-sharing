@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JSON-LD Example</title>
+  <meta name="description" content="Example with JSON-LD structured data." />
+  <link rel="canonical" href="https://example.com/jsonld" />
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "JSON-LD Example",
+    "image": ["https://example.com/images/jsonld.jpg"],
+    "author": {
+      "@type": "Person",
+      "name": "John Doe"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Example Site",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://example.com/images/logo.png"
+      }
+    },
+    "datePublished": "2025-09-26",
+    "dateModified": "2025-09-26"
+  }
+  </script>
+</head>
+<body>
+  <h1>JSON-LD Structured Data Example</h1>
+</body>
+</html>
